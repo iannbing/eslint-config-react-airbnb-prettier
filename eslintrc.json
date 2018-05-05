@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "impliedStrict": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": ["react-app", "airbnb", "prettier"],
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "env": {
+    "es6": true,
+    "jest": true,
+    "browser": true
+  },
+  "rules": {
+    "jsx-a11y/href-no-hash": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/prop-types": 0,
+    "prettier/prettier": 0,
+    "@exact/reactive/import-exact-antd": "error"
+  }
+}
