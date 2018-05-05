@@ -32,4 +32,3 @@ And add this config in your `.eslintrc`.
 * eslint-plugin-jsx-a11y
 * eslint-plugin-prettier
 * eslint-plugin-react
-* eslint-plugin-reactive
