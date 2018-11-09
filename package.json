@@ -1,17 +1,14 @@
 {
   "name": "eslint-config-react-airbnb-prettier",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An opinionated eslint configuration for React, applying prettier on top of airbnb's config",
   "main": "index.js",
   "author": "Huang-Ming Chang",
   "homepage": "https://github.com/iannbing/eslint-config-react-airbnb-prettier",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^5.8.0",
-    "prettier": "^1.15.1"
-  },
   "dependencies": {
     "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-config-react-app": "^3.0.5",
@@ -21,6 +18,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.1",
     "tape": "^4.9.1"
   },
   "scripts": {
