@@ -21,14 +21,15 @@ And add this config in your `.eslintrc`.
 
 ### Applied configurations
 
-* eslint-config-airbnb
-* eslint-config-prettier
-* eslint-config-react-app
+- eslint-config-airbnb
+- eslint-config-prettier
+- eslint-config-react-app
 
 ### Applied plugins
 
-* eslint-plugin-flowtype
-* eslint-plugin-import
-* eslint-plugin-jsx-a11y
-* eslint-plugin-prettier
-* eslint-plugin-react
+- eslint-plugin-cypress
+- eslint-plugin-flowtype
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-prettier
+- eslint-plugin-react
