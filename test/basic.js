@@ -1,7 +1,7 @@
-var config = require("../");
-var test = require("tape");
+var config = require('../');
+var test = require('tape');
 
-test("test basic properties of config", function(t) {
+test('test basic properties of config', function(t) {
   t.ok(isObject(config.parserOptions));
   t.ok(isObject(config.rules));
   t.ok(Array.isArray(config.plugins));
@@ -9,5 +9,5 @@ test("test basic properties of config", function(t) {
 });
 
 function isObject(obj) {
-  return typeof obj === "object" && obj !== null;
+  return typeof obj === 'object' && obj !== null;
 }

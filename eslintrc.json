@@ -10,16 +10,23 @@
     }
   },
   "extends": ["react-app", "airbnb", "prettier"],
-  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "plugins": ["react", "jsx-a11y", "import", "prettier", "cypress"],
   "env": {
     "es6": true,
     "jest": true,
-    "browser": true
+    "browser": true,
+    "cypress/globals": true
   },
   "rules": {
     "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      { "components": ["Link"], "specialLink": ["to"] }
+    ],
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "react/prop-types": 0,
-    "prettier/prettier": 0
+    "prettier/prettier": 0,
+    "@exact/reactive/import-exact-antd": "error",
+    "import/no-named-as-default": 0
   }
 }
