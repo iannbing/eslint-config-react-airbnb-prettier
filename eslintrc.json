@@ -26,7 +26,6 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "react/prop-types": 0,
     "prettier/prettier": 0,
-    "@exact/reactive/import-exact-antd": "error",
     "import/no-named-as-default": 0
   }
 }
