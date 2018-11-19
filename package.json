@@ -6,7 +6,7 @@
   "author": "Huang-Ming Chang",
   "homepage": "https://github.com/iannbing/eslint-config-react-airbnb-prettier",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
