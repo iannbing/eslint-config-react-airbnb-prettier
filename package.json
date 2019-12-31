@@ -20,11 +20,11 @@
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
     "prettier": "^1.18.2",
-    "snyk": "^1.189.0"
+    "snyk": "^1.269.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "snyk": true
 }
